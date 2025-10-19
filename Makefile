@@ -1,4 +1,4 @@
-APP := unifi-webhook
+APP := unifi-webhook-to-bot
 VERSION := latest
 
 build:
