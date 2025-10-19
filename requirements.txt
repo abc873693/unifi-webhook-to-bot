@@ -2,4 +2,3 @@ requests
 fastapi
 uvicorn[standard]
 python-telegram-bot[httpx]
-pyjwt
