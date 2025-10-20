@@ -29,6 +29,8 @@ async def receive_webhook(webhook_id: str, request: Request):
 
 
 async def notify(data):
+    await asyncio.sleep(10)
+
     event_id = (
         data.get("alarm", {})
             .get("triggers", [{}])[0]
